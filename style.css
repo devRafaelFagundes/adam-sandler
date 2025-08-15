@@ -21,6 +21,13 @@
 .navbar-right li {
     margin: 0 10px;
 }
+#navbar a:hover {
+    background: linear-gradient(90deg, rgb(0,191,255), rgb(255,0,191));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
 
 .logo{
     border-radius: 50%;
