@@ -1,5 +1,8 @@
 body {
     padding-top: 60px;
+    background-image: url(images/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -42,4 +45,20 @@ body {
 
 .logo{
     border-radius: 50%;
+}
+
+.cabeca{
+    background-image: url("images/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content:end;
+    height: 300px;
+    width: fit-content;
+}
+.cabeca h1{
+    color: white;
+    text-align: right;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
 }
