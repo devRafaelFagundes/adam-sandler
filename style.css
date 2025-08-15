@@ -62,3 +62,34 @@ body {
     margin-top: 20px;
     margin-right: 20px;
 }
+
+.biografia {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 40px 20px;
+    background: rgba(0,0,0,0.5); /* opcional, para destacar a seção */
+    border-radius: 20px;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.biografia-img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 20px;
+    flex-shrink: 0;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+}
+
+.biografia-conteudo {
+    color: #fff;
+    flex: 1;
+}
+
+.biografia-conteudo h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 2em;
+}
