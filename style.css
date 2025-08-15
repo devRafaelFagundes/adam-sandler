@@ -120,3 +120,42 @@ body {
     padding: 16px;
     color: #fff;
 }
+
+.producoes-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 900px;
+    width: 100%;
+    margin: 40px auto;
+}
+/*Daqui pra baixo é a área de produções autorais do adam sandler, dá pra repetir em mais três seções abaixo a mesma base,
+só citando, meu trabalho por hoje já deu slk*/
+.producao-item {
+    display: flex;
+    align-items: center;
+    background: rgba(0,0,0,0.3);
+    border-radius: 16px;
+    padding: 20px;
+    gap: 24px;
+    color: #fff;
+    width: 100%; /* Faz o item ocupar toda a largura da lista */
+    box-sizing: border-box;
+}
+
+.producao-item img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 12px;
+    flex-shrink: 0;
+}
+
+.producao-item h3 {
+    margin: 0 0 8px 0;
+    font-size: 1.3em;
+}
+
+.producao-item p {
+    margin: 0;
+}
