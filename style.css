@@ -93,3 +93,30 @@ body {
     margin-bottom: 16px;
     font-size: 2em;
 }
+
+.curiosidades{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    max-width: 900px;
+    margin: 40px auto;
+}
+.curiosidades h2{
+    grid-column: span 3;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.curiosidades ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding: 0;
+    list-style: disc inside;
+}
+.curiosidades li {
+    background: rgba(0,0,0,0.3);
+    border-radius: 10px;
+    padding: 16px;
+    color: #fff;
+}
