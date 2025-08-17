@@ -7,6 +7,7 @@ body {
     background-image: url(images/background1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 }
 #navbar{
     background: black;
@@ -18,6 +19,7 @@ body {
     left: 0;
     width: 100%;
     z-index: 1000;
+    margin: 0px;
 }
 #navbar nav {
     display: flex;
@@ -59,6 +61,9 @@ body {
     align-content:end;
     height: 300px;
     width: fit-content;
+    margin: auto;
+    /* aqui na real é pra colocar a imagem do adam sandler na main page, imagino que o body será um fundo preto, assim as imagens transicionam com um efeito de gradiente linear */
+    /* Daí tem que pegar a imagem e colocar ela do tamanho ideal, dá pra usar media query pra colocar 3 tipos de imagem ou simplesmente a tag picture */
 }
 .cabeca h1{
     color: white;
@@ -99,10 +104,7 @@ body {
     font-size: 2em;
 }
 
-.curiosidades{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+.curiosidades {
     max-width: 900px;
     margin: 40px auto;
 }
@@ -124,6 +126,7 @@ body {
     border-radius: 10px;
     padding: 16px;
     color: #fff;
+    list-style: none;
 }
 
 .producoes-lista {
@@ -163,4 +166,9 @@ só citando, meu trabalho por hoje já deu slk*/
 
 .producao-item p {
     margin: 0;
+}
+
+#gradient {
+    background-image: linear-gradient(to right, black, purple);
+    padding: 10px;
 }
