@@ -1,25 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
 body {
     padding-top: 60px;
     background-image: url(images/background1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
-
 #navbar{
     background: black;
+    color: white;
+    font-size: 1.3rem;
     padding: 10px 0px;
     position:fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000; 
+    z-index: 1000;
 }
 #navbar nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 50px;
+    padding: 5px;
 }
 
 .navbar-left,
