@@ -194,3 +194,128 @@ só citando, meu trabalho por hoje já deu slk*/
     padding: 10px;
 
 }
+
+.icone-menu {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+#esconder-menu {
+    display: none;
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+@media screen and (max-width: 360px) and (max-height: 740px) {
+    body {
+        padding-top: 60px;
+        font-size: 14px;
+    }
+
+        .icone-menu {
+        display: block;
+        color: white;
+    }
+
+    #navbar nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+     .navbar-right {
+        display: none; 
+        flex-direction: column;
+        width: 100%;
+        background: #222;
+        padding: 10px 0;
+        gap: 10px;
+        border-top: 1px solid #444;
+    }
+
+    .navbar-right li {
+        text-align: center;
+        width: 100%;
+    }
+
+    .navbar-right li a {
+        display: block;
+        padding: 10px;
+        width: 100%;
+        color: white;
+        text-decoration: none;
+    }
+
+    .navbar-right li a:hover {
+        background: #444;
+    }
+
+    #esconder-menu:checked ~ .menu {
+        display: flex;
+    }
+
+    .navbar-left,
+    .navbar-right {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .cabeca {
+        height: 500px;
+    }
+
+    .cabeca::before {
+        height: 500px;
+    }
+
+    .cabeca h1 {
+        font-size: 24px;
+        top: 40%;
+        right: 10%;
+        text-align: center;
+    }
+
+    .biografia {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 10px;
+        gap: 20px;
+    }
+
+    .biografia-img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .biografia-conteudo h2 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .biografia-conteudo {
+        text-align: center;
+    }
+
+    .curiosidades ul {
+        grid-template-columns: 1fr;
+    }
+
+    .producao-item {
+        flex-direction: column;
+        text-align: center;
+        padding: 16px;
+    }
+
+    .producao-item img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .producao-item h3 {
+        font-size: 1.1em;
+    }
+}
+
