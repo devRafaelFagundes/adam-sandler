@@ -10,6 +10,10 @@ body {
 a {
     text-decoration: none;
 }
+.sandlerS {
+    font-size: 5rem;
+    display: inline;
+}
 #navbar{
     background: black;
     color: white;
@@ -381,6 +385,8 @@ só citando, meu trabalho por hoje já deu slk*/
     box-sizing: border-box;
     box-shadow: 0 4px 16px rgba(0,0,0,0.2);
     transition: transform 0.2s;
+    flex: 1 1 380px; 
+    max-width: 450px; 
 }
 #premios-lista li:hover {
     transform: translateY(-6px) scale(1.01);
@@ -399,3 +405,4 @@ só citando, meu trabalho por hoje já deu slk*/
     background: linear-gradient(90deg, rgb(174, 0, 255), rgb(196, 0, 0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
