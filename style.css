@@ -273,6 +273,7 @@ só citando, meu trabalho por hoje já deu slk*/
 
     #navbar nav {
         margin: 0 10px;
+        margin-left: 0px;
         padding: 0;
         height: 50px;
         align-items: center;
@@ -310,10 +311,7 @@ só citando, meu trabalho por hoje já deu slk*/
     #esconder-menu:checked ~ .menu {
         display: flex;
         position: absolute;
-        /* ou fixed */
         top: 60px;
-        /* altura da barra */
-
         background: #222;
         flex-direction: column;
         width: 100%;
@@ -491,4 +489,5 @@ só citando, meu trabalho por hoje já deu slk*/
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
