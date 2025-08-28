@@ -34,7 +34,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 50px;
+    margin: 0px 25px;
     padding: 5px;
 }
 
@@ -560,6 +560,65 @@ só citando, meu trabalho por hoje já deu slk*/
 /*Para tablets, dispotivo base: Ipad Air, 820x1180*/
 
 @media (min-width: 728px) and (max-width: 990px){
+    
+    .icone-menu {
+        display: block;
+        color: white;
+        font-size: 2rem;
+        cursor: pointer;
+        user-select: none;
+        order: 1;
+        margin: 0;
+        align-self: center;
+    }
+
+    .navbar-right {
+        display: none; 
+        flex-direction: column;
+        width: 100%;
+        background: #222;
+        padding: 10px 0;
+        gap: 10px;
+        border-top: 1px solid #444;
+    }
+
+    #esconder-menu:checked ~ .menu {
+        display: flex;
+        position: absolute;
+        top: 60px;
+        background: #222;
+        flex-direction: column;
+        width: 100%;
+        z-index: 1001;
+        background: rgba(34, 34, 34, 0.8);
+        backdrop-filter: blur(8px);
+        border-radius: 10px;
+        padding: 15px 0;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+        align-items: center;
+        left: 10px;
+        right: 10px;
+        width: auto;
+    }
+
+    #esconder-menu:checked~.menu a {
+        color: white !important;
+        -webkit-text-fill-color: unset !important;
+        background: none !important;
+    }
+
+    .navbar-left {
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .logo {
+        width: 3rem;
+    }
+    
   .cabeca {
     height: 500px;
   }
@@ -682,5 +741,55 @@ só citando, meu trabalho por hoje já deu slk*/
 }
 .premio10::before {
     background-image: url(images/premios/premio10.jpg);
+}
+
+/*Ipad Pro eu te odeio. Ass:Allan*/
+@media (min-width: 1024px) and (max-width: 1025px){
+   
+    .icone-menu {
+        display: block;
+        color: white;
+        font-size: 2rem;
+        cursor: pointer;
+        user-select: none;
+        order: 1;
+        margin: 0;
+        align-self: center;
+    }
+
+    .navbar-right {
+        display: none; 
+        flex-direction: column;
+        width: 100%;
+        background: #222;
+        padding: 10px 0;
+        gap: 10px;
+        border-top: 1px solid #444;
+    }
+
+    #esconder-menu:checked ~ .menu {
+        display: flex;
+        position: absolute;
+        top: 60px;
+        background: #222;
+        flex-direction: column;
+        width: 100%;
+        z-index: 1001;
+        background: rgba(34, 34, 34, 0.8);
+        backdrop-filter: blur(8px);
+        border-radius: 10px;
+        padding: 15px 0;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+        align-items: center;
+        left: 10px;
+        right: 10px;
+        width: auto;
+    }
+
+    #esconder-menu:checked~.menu a {
+        color: white !important;
+        -webkit-text-fill-color: unset !important;
+        background: none !important;
+    }
 }
 
