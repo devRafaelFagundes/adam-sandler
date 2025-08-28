@@ -246,11 +246,10 @@ só citando, meu trabalho por hoje já deu slk*/
     opacity: 0;
     pointer-events: none;
 }
-#producoes {
+#producoes, #alem-do-cinema {
     max-width: 900px;
     margin: 40px auto;
 }
-
 /*Para celulares, dispotivo base: Galaxy S8+, 360x740*/
 @media screen and (min-width: 360px) and (max-width: 575px) {
     body {
@@ -426,6 +425,9 @@ só citando, meu trabalho por hoje já deu slk*/
     .producao-item h3 {
         font-size: 1.1em;
     }
+    .alem-item .video {
+        width: 900px;
+    }
 }
 
 
@@ -457,6 +459,9 @@ só citando, meu trabalho por hoje já deu slk*/
 }
 .titulo-part {
       background-image: linear-gradient(90deg, rgb(235, 138, 21), rgb(220,40,90));
+}
+.titulo-alem {
+    background-image: linear-gradient(90deg, rgb(72, 0, 255), rgb(0, 255, 200));
 
 }
 
@@ -504,7 +509,47 @@ só citando, meu trabalho por hoje já deu slk*/
     -webkit-text-fill-color: unset;
 }
 
-
+.alem-item {
+    background-color: #320032;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.alem-item p {
+    width: 85%;
+    margin: 20px auto;
+}
+#alem-do-cinema h3 {
+    text-align: center;
+    margin: 5px 0px;
+    background-color: #BA0242;
+    border-radius: 15px 15px 0px 0px;
+    padding: 3px;
+}
+#alem-do-cinema .barra-baixo {
+    border-radius: 0px 0px 15px 15px;
+    color: #BA0242;
+}
+.alem-item .video {
+    position: relative;
+    padding-bottom: 56.25%; /* proporção 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 80%;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.alem-item .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 10px;
+}
 /*Para tablets, dispotivo base: Ipad Air, 820x1180*/
 
 @media (min-width: 728px) and (max-width: 990px){
