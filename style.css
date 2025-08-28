@@ -149,6 +149,7 @@ main {
 }
 #biografia-texto{
     margin-top: 35px;
+    text-align: justify;
 }
 
 #curiosidades {
