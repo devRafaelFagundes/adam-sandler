@@ -527,6 +527,12 @@ só citando, meu trabalho por hoje já deu slk*/
     border-radius: 15px 15px 0px 0px;
     padding: 3px;
 }
+#alem-do-cinema #musica h3 {
+    background-color: goldenrod;
+}
+#alem-do-cinema #musica .barra-baixo {
+    color: goldenrod;
+}
 #alem-do-cinema .barra-baixo {
     border-radius: 0px 0px 15px 15px;
     color: #BA0242;
