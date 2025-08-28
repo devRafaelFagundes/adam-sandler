@@ -386,7 +386,7 @@ só citando, meu trabalho por hoje já deu slk*/
     justify-content: center;
 }
 #premios-lista li {
-    background: url("images/background1.jpg") no-repeat center/cover;
+    background: rgba(0,0,0,0.3);
     border-radius: 5px;
     padding: 15px;
     color: #fff;
@@ -403,7 +403,7 @@ só citando, meu trabalho por hoje já deu slk*/
 #premios-lista li h3 {
     margin: 0 0 10px 0;
     font-size: 1.1em;
-    color: black;
+    color: white;
 }
 
 #premios-lista li p {
