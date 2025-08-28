@@ -10,6 +10,9 @@ body {
 a {
     text-decoration: none;
 }
+main {
+    /* transform: scale(1.1); */
+}
 .sandlerS {
     font-size: 5rem;
     display: inline;
@@ -431,6 +434,11 @@ só citando, meu trabalho por hoje já deu slk*/
     margin: 40px auto;
 }
 
+#participacoes {
+    max-width: 900px;
+    margin: 40px auto;
+}
+
 .titulo {
     font-size: 2em;
     margin-bottom: 20px;
@@ -446,6 +454,10 @@ só citando, meu trabalho por hoje já deu slk*/
 }
 .titulo-prem {
     background-image: linear-gradient(90deg, rgb(20, 19, 11), rgb(255, 196, 0));
+}
+.titulo-part {
+      background-image: linear-gradient(90deg, rgb(235, 138, 21), rgb(220,40,90));
+
 }
 
 
