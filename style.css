@@ -770,7 +770,7 @@ só citando, meu trabalho por hoje já deu slk*/
     #esconder-menu:checked ~ .menu {
         display: flex;
         position: absolute;
-        top: 60px;
+        top: 95px;
         background: #222;
         flex-direction: column;
         width: 100%;
@@ -792,4 +792,5 @@ só citando, meu trabalho por hoje já deu slk*/
         background: none !important;
     }
 }
+
 
