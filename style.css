@@ -838,7 +838,7 @@ só citando, meu trabalho por hoje já deu slk*/
 }
 
 /*Animação para o menu mobile*/
-#esconder-menu {
+/*#esconder-menu {
     display: none;
 }
 
@@ -850,7 +850,7 @@ só citando, meu trabalho por hoje já deu slk*/
     transform: translateY(0);
     pointer-events: all;
     gap: 20px;
-}
+}*/
 
 @media screen and (max-width: 575px) {
 
@@ -916,4 +916,5 @@ só citando, meu trabalho por hoje já deu slk*/
         grid-template-columns: 1fr;
     }
 }
+
 
